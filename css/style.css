@@ -1,0 +1,44 @@
+.game{
+    margin: auto;
+}
+.game input{
+    height: 45px;
+}
+.btn-success{
+    background-color: #a61f67;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-radius: 0px;
+    border-color:  #a61f67;
+}
+.btn-success:hover {
+    color: #fff;
+    background-color: #a61f67;
+    border-radius: 1.0em;
+    border-color:  #a61f67;
+}
+#time {
+    color:#a61f67;
+    font-family:Arial;
+    font-size:40px;
+    position:static;
+    left:50%;
+    top:80px;
+    margin-left:-100px;
+    width:200px;
+    height:10%;
+    text-align:center;
+    line-height:50px;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    -ms-border-radius:5px;
+}
+#stopwatch {
+    position:static;
+    left:50%;
+    margin-left:-100px;
+    border:2px solid #a61f67;
+    -webkit-border-radius:200px;
+}
