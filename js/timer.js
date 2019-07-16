@@ -18,20 +18,14 @@
         ctx.stroke();
         t = t >= 60 ? 0: t + 0.05;
     }
-
-    canvas.addEventListener('click', function () {
-
+    document.addEventListener('mouseover', function () {
         if (!timerOn) {
             timerOn = true;
             animation = setInterval(function () {
                 draw();
                 digital.innerHTML = Math.floor(t);
-            }, 50);
+            }, 0.01);
         }
-        else {
-                alert("adsadas");
-        }
-
     });
 
 
