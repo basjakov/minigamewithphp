@@ -7,6 +7,7 @@
  */
     session_start();
     $_SESSION['sum'];
+
      class check{
             public function equalcheck($value,$trueanswer)
             {

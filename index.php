@@ -34,17 +34,22 @@
             </style>
         </head>
         <body class="body">
-        <nav class="navbar navbar-light ">
-            <a class="navbar-brand" href="#"><img src="https://www.betconstruct.com/fs/userFiles/bc-v2/images/logo.png?v=1557748242"  width="200px"> </a>
-            <ul class="navbar-nav ">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
-        </nav>
+        <header>
+
+
+
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#"><img src="https://www.betconstruct.com/fs/userFiles/bc-v2/images/logo.png?v=1557748242"  width="200px"> </a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item"><a href="logout.php" class="nav-link">Logout</a> </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         <div class="container game">
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">

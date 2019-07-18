@@ -42,3 +42,7 @@
     border:2px solid #a61f67;
     -webkit-border-radius:200px;
 }
+.right_menu{
+    float: right;
+
+}

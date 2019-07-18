@@ -1,3 +1,7 @@
+<?php
+    include '../leader.php';
+
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -25,7 +29,21 @@
                         <input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password">
                     </div>
                     <input type="submit" class="btn btn-success" value="Login">
+                     <a href="../register/registerform.html" class="btn btn-success">Register</a>
                     </form>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <div class="container" style="margin-top: 1em;">
+                        <p>
+                            <?php
+
+                                    while ($row = $all->fetch()){
+                                        echo $row['name']." His score is ".$row['score'];
+
+                                    }
+                            ?>
+                        </p>
+                    </div>
                 </div>
             </div>
 
